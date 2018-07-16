@@ -69,7 +69,7 @@ def play_game():
         while game.replay:
             print("The word was ", game.word, "!", sep="")
             getDef = input("Enter 0 to search for the term, or any other key to skip definition lookup\n")
-            if getDef == '0' or getDef == 'o's:
+            if getDef == '0' or getDef == 'o':
                 game.google_def()
             check = input("Do you want to play again? \"Y\" = Yes \"N\" = No \n")
             if check == 'Y' or check == 'y':
